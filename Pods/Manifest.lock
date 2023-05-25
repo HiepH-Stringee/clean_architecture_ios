@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (5.5.0)
   - Differentiator (4.0.1)
+  - MBProgressHUD (1.2.0)
   - Realm (5.2.0):
     - Realm/Headers (= 5.2.0)
   - Realm/Headers (5.2.0)
@@ -25,6 +26,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.5.0)
+  - MBProgressHUD (~> 1.1)
   - RealmSwift (~> 5.2.0)
   - RxCocoa
   - RxDataSources (~> 4.0)
@@ -38,6 +40,7 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - Differentiator
+    - MBProgressHUD
     - Realm
     - RealmSwift
     - RxCocoa
@@ -52,6 +55,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   Realm: f749c723e272f08fdf1939af5e61d2bd09b203e8
   RealmSwift: bf0ab78b52c5bafba8b3ad73be8dfb4c1ea5cf01
   RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
@@ -63,6 +67,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
 
-PODFILE CHECKSUM: 73cd9916c797317fb64f9ad8f09b1520e7879920
+PODFILE CHECKSUM: 3d9ad9c66f8de7dae219a298c7093345a0791fe1
 
 COCOAPODS: 1.12.0

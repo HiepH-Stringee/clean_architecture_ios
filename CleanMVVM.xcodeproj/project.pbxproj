@@ -13,6 +13,7 @@
 		9308AA472A1F650400653BA8 /* DetailContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9308AA452A1F650400653BA8 /* DetailContactViewController.xib */; };
 		9308AA4A2A1F66C200653BA8 /* ListContactRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308AA492A1F66C200653BA8 /* ListContactRoute.swift */; };
 		9308AA4C2A1F6AFB00653BA8 /* Collection+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308AA4B2A1F6AFB00653BA8 /* Collection+Extention.swift */; };
+		9308AA522A1F765900653BA8 /* View+ReactiveExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308AA512A1F765900653BA8 /* View+ReactiveExt.swift */; };
 		934A202F2A1CB0EB00538132 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A202E2A1CB0EB00538132 /* Section.swift */; };
 		934A20312A1CB17B00538132 /* AppSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A20302A1CB17B00538132 /* AppSection.swift */; };
 		93691BEF2A1D0E5B003BA79C /* ContactRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93691BEE2A1D0E5B003BA79C /* ContactRequest.swift */; };
@@ -83,6 +84,7 @@
 		9308AA452A1F650400653BA8 /* DetailContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailContactViewController.xib; sourceTree = "<group>"; };
 		9308AA492A1F66C200653BA8 /* ListContactRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContactRoute.swift; sourceTree = "<group>"; };
 		9308AA4B2A1F6AFB00653BA8 /* Collection+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extention.swift"; sourceTree = "<group>"; };
+		9308AA512A1F765900653BA8 /* View+ReactiveExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ReactiveExt.swift"; sourceTree = "<group>"; };
 		934A202E2A1CB0EB00538132 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		934A20302A1CB17B00538132 /* AppSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSection.swift; sourceTree = "<group>"; };
 		93691BEE2A1D0E5B003BA79C /* ContactRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRequest.swift; sourceTree = "<group>"; };
@@ -236,6 +238,14 @@
 				93F1F8312A1F053E00EE1FEB /* ContactTableViewCell.xib */,
 			);
 			path = ListContactCell;
+			sourceTree = "<group>";
+		};
+		9308AA502A1F763900653BA8 /* ReactiveExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9308AA512A1F765900653BA8 /* View+ReactiveExt.swift */,
+			);
+			path = ReactiveExtension;
 			sourceTree = "<group>";
 		};
 		934A202D2A1CB0DE00538132 /* Section */ = {
@@ -393,6 +403,7 @@
 		9375140C2A1743D0002C08A2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				9308AA502A1F763900653BA8 /* ReactiveExtension */,
 				937513DF2A172718002C08A2 /* Extension */,
 				934A202D2A1CB0DE00538132 /* Section */,
 				937514122A1750E9002C08A2 /* Common */,
@@ -731,6 +742,7 @@
 				937513F22A172D79002C08A2 /* Inject.swift in Sources */,
 				9308AA4A2A1F66C200653BA8 /* ListContactRoute.swift in Sources */,
 				93691BF42A1D116F003BA79C /* ContactNetwrok.swift in Sources */,
+				9308AA522A1F765900653BA8 /* View+ReactiveExt.swift in Sources */,
 				93F1F82A2A1EF3DC00EE1FEB /* ContactRepository.swift in Sources */,
 				937513F42A172DD3002C08A2 /* DefaultContainer.swift in Sources */,
 				937514142A1750F3002C08A2 /* ViewModelType.swift in Sources */,

@@ -16,6 +16,7 @@ target 'CleanMVVM' do
   pod 'Alamofire', '~> 5.5.0'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'Swinject'
+  pod 'MBProgressHUD', '~> 1.1'
 
   target 'CleanMVVMTests' do
     inherit! :search_paths

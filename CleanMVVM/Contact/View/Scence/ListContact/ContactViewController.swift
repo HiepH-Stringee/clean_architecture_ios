@@ -39,17 +39,11 @@ class ContactViewController: UIViewController {
     private func bindViewModel() {
         let viewWillAppear = rx.sentMessage(#selector(UIViewController.viewWillAppear(_:))).mapToVoid().asDriverOnErrorJustComplete()
         let pull = self.tblView.refreshControl!.rx.controlEvent(.valueChanged).asDriver()
-        let loadMore = self.tblView.rx.didEndDragging.filter { _ in
-            let currentOffset = self.tblView.contentOffset.y
-            let maximumOffset = self.tblView.contentSize.height - self.tblView.frame.size.height
-
-            return maximumOffset - currentOffset <= 30
-        }.mapToVoid().asDriverOnErrorJustComplete()
 
         let input = ContactViewModel.Input(
             refresh: Driver.merge(viewWillAppear, pull),
             selection: self.tblView.rx.itemSelected.asDriver(),
-            loadMore: loadMore
+            loadMore: self.tblView.rx.didNeedLoadMore.asDriver()
         )
         
         let output = self.viewModel.transform(input: input)
@@ -62,6 +56,8 @@ class ContactViewController: UIViewController {
         output.fetching
             .drive(self.tblView.refreshControl!.rx.isRefreshing)
             .disposed(by: self.disposeBag)
+        
+        output.loading.drive(self.view.rx.isLoading).disposed(by: self.disposeBag)
         
         output.toDetail.drive().disposed(by: self.disposeBag)
         
