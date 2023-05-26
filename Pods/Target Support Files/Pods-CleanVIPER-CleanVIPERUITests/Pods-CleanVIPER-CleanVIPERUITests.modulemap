@@ -1,0 +1,6 @@
+framework module Pods_CleanVIPER_CleanVIPERUITests {
+  umbrella header "Pods-CleanVIPER-CleanVIPERUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

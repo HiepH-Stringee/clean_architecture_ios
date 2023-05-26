@@ -1,0 +1,6 @@
+framework module RxSwift {
+  umbrella header "RxSwift-iOS16.1-umbrella.h"
+
+  export *
+  module * { export * }
+}

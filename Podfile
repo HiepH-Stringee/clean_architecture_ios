@@ -28,3 +28,31 @@ target 'CleanMVVM' do
   end
 
 end
+
+target 'CleanVIPER' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CleanMVVM
+  
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxGesture'
+  pod 'RxDataSources', '~> 4.0'
+  pod 'RealmSwift', '~> 5.2.0'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'Alamofire', '~> 5.5.0'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'Swinject'
+  pod 'MBProgressHUD', '~> 1.1'
+
+  target 'CleanVIPERTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CleanVIPERUITests' do
+    # Pods for testing
+  end
+
+end

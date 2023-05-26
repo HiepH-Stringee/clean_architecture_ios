@@ -8,20 +8,6 @@
 import Foundation
 import Swinject
 
-protocol NameRegisterContainer {
-    static var NAME_REGISTER: String { get }
-}
-
-extension NameRegisterContainer {
-    static var NAME_REGISTER: String { String(describing: self) }
-}
-
-struct ContainerConfiguration: Configuration {
-    func configure() {
-        DefaultContainer.shared.register()
-    }
-}
-
 struct DefaultContainer {
     
     let container: Container = .init()

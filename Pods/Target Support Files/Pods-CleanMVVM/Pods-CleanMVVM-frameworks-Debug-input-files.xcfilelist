@@ -1,14 +1,14 @@
 ${PODS_ROOT}/Target Support Files/Pods-CleanMVVM/Pods-CleanMVVM-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
-${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
-${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
-${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
-${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
-${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework
-${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework
-${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
-${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
-${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
-${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
-${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework
+${BUILT_PRODUCTS_DIR}/Alamofire-iOS10/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Differentiator-iOS10/Differentiator.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS10/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Realm-iOS10/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift-iOS10/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa-iOS10/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxDataSources-iOS10/RxDataSources.framework
+${BUILT_PRODUCTS_DIR}/RxGesture-iOS10/RxGesture.framework
+${BUILT_PRODUCTS_DIR}/RxRelay-iOS10/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift-iOS10/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit-iOS10/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS10/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/Swinject-iOS10/Swinject.framework
